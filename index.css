@@ -70,9 +70,9 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    color: var(--black); /* var(--white-1); */
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: var(--white-1); /* var(--black); */
     overflow-x: hidden;
 }
 
@@ -125,7 +125,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: var(--black); /* var(--white-1); */
 }
 
 .heading-primary {
@@ -405,7 +405,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/header2.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
