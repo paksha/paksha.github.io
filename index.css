@@ -337,7 +337,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     padding: var(--gutter-normal) 0;
 }
 
@@ -404,8 +404,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header2.jpg');
+    background: linear-gradient(rgba(0,0,0, .01), rgba(0,0,0, .2)), 
+        url('./images/whiteheader2.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
