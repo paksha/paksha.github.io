@@ -453,12 +453,12 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__box:not(:last-child) {
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 @media(max-width: 500px) {
     .work__box:not(:last-child) {
-        margin-bottom: 10rem;
+        margin-bottom: 3rem; /* This line and line 456 to control spacing between experiences. */
     }
 }
 
@@ -494,7 +494,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .work__image-box {
-        flex: 0 0 45%;
+        flex: 0 0 35%;
         margin: 0 0 0 10rem;
     }
 }
@@ -577,7 +577,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer {
     text-align: center;
-    padding: var(--gutter-medium) 0 var(--gutter-normal);
+    padding: var(--gutter-small) 0 var(--gutter-small);
 }
 
 .footer__social-links {
