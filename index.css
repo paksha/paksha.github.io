@@ -188,7 +188,7 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(--white);
+    color: var(--black);
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
@@ -473,8 +473,9 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__list {
     /* list-style-type: square; */
-    list-style-position: inside;
+    list-style-position: outside;
     margin-bottom: var(--gutter-normal);
+    margin-left: var(--gutter-small);
 }
 
 .work__code {
