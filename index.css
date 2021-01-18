@@ -36,6 +36,7 @@
 
     --black: #000;
     --pink: #ff3258;
+    --maroon: #b80000;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -150,7 +151,7 @@ h2::after {
     display: block;
     height: 2px;
     width: 10rem;
-    background: var(--pink);
+    background: var(--maroon);
     margin: var(--gutter-small) 0;
 }
 
@@ -201,7 +202,7 @@ a {
 
 button:focus,
 a:focus {
-    outline: 2px solid var(--pink);
+    outline: 2px solid var(--maroon);
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -210,7 +211,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--pink);
+    color: var(--maroon);
 }
 
 .btn {
@@ -219,7 +220,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--pink);
+    border: 1px solid  var(--maroon);
     font-weight: 400;
 }
 
@@ -243,7 +244,7 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--pink);
+    background: var(--maroon);
 }
 
 .btn--pink {
@@ -266,7 +267,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: .6rem;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid var(--pink);
+    border-bottom: 1px solid var(--maroon);
 }
 
 .link__text::after {
@@ -289,7 +290,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
     right: 0;
-    background: var(--pink);
+    background: var(--maroon);
 }
 
 .link__text span {
@@ -308,7 +309,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     height: 5.5rem;
     width: 5.5rem;
-    background-color: var(--pink);
+    background-color: var(--maroon);
     border-radius: 50%;
     z-index: 10;
     visibility: hidden;
@@ -390,13 +391,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link:hover {
-    color: var(--pink);
+    color: var(--maroon);
 }
 
 .nav__link:hover::after {
     right: 0;
     height: 2px;
-    background: var(--pink);
+    background: var(--maroon);
 }
 
 /* --------------------------------------- */
